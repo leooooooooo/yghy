@@ -12,6 +12,10 @@
 #import "AppDelegate.h"
 
 
+#define UpdateAlertViewTag 1
+
+
+
 @interface LeftViewController (){
     NSArray *List;
 }
@@ -176,21 +180,34 @@ static NSString *identifier = @"cell";
     {
         alert = [[UIAlertView alloc]initWithTitle:@"更新" message:@"当前已经是最新版本" delegate:self cancelButtonTitle:@"好" otherButtonTitles:nil, nil];
     }
+    alert.tag = UpdateAlertViewTag;
     [alert show];
 }
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
-    if(buttonIndex==1){
-        //Update *up = [[Update alloc]init];
-        UIWebView *up = [[UIWebView alloc]init];
-        NSURL *url =[NSURL URLWithString:[(AppDelegate *)[[UIApplication sharedApplication]delegate]Url]];
-        NSURLRequest *request =[NSURLRequest requestWithURL:url];
-        [up loadRequest:request];
-        NSLog(@"开始更新",nil);
-
-
+    switch (alertView.tag)
+    {
+        case UpdateAlertViewTag:
+            switch (buttonIndex)
+            {
+                case 1:[self Update];break;
+                default:break;
+            }
+            break;
+            
+        default:break;
     }
+}
+
+-(void)Update
+{
+    UIWebView *up = [[UIWebView alloc]init];
+    NSURL *url =[NSURL URLWithString:[(AppDelegate *)[[UIApplication sharedApplication]delegate]Url]];
+    NSURLRequest *request =[NSURLRequest requestWithURL:url];
+    [up loadRequest:request];
+    NSLog(@"开始更新",nil);
+
 }
 
 

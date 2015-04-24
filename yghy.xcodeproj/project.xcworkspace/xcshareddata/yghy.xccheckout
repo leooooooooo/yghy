@@ -7,32 +7,32 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>0BEEA6D5-64A6-41D3-9299-62DD46C8DBCE</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>yghy</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>017D34B564978CB9D17C42FC4AF4E66FB3C485D8</key>
-		<string>ssh://rjzxmac.local/git/yghy.git</string>
+		<key>98714002E3E6F85D7AC3AB515D10DD1C5BDBA46B</key>
+		<string>https://github.com/leooooooooo/yghy.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>yghy.xcodeproj/project.xcworkspace</string>
+	<string>yghy.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>017D34B564978CB9D17C42FC4AF4E66FB3C485D8</key>
+		<key>98714002E3E6F85D7AC3AB515D10DD1C5BDBA46B</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://rjzxmac.local/git/yghy.git</string>
+	<string>https://github.com/leooooooooo/yghy.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>017D34B564978CB9D17C42FC4AF4E66FB3C485D8</string>
+	<string>98714002E3E6F85D7AC3AB515D10DD1C5BDBA46B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>017D34B564978CB9D17C42FC4AF4E66FB3C485D8</string>
+			<string>98714002E3E6F85D7AC3AB515D10DD1C5BDBA46B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>yghy</string>
 		</dict>
