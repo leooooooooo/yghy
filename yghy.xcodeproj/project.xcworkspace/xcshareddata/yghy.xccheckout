@@ -11,7 +11,7 @@
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>98714002E3E6F85D7AC3AB515D10DD1C5BDBA46B</key>
-		<string>https://github.com/leooooooooo/yghy.git</string>
+		<string>ssh://rjzxmac.local/git/yghy.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>yghy.xcodeproj</string>
@@ -21,7 +21,7 @@
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/leooooooooo/yghy.git</string>
+	<string>ssh://rjzxmac.local/git/yghy.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>

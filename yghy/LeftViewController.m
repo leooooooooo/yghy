@@ -37,14 +37,14 @@ static NSString *identifier = @"cell";
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:identifier];
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-    UIImageView *head = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 320, self.view.bounds.size.height/3)];
+    UIImageView *head = [[[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 320, self.view.bounds.size.height/3)]autorelease];
     head.image = [UIImage imageNamed:@"登录"];
     //UIView *head = [[[UIView alloc] autorelease];
     self.tableView.tableHeaderView = head;
     self.tableView.backgroundView=head;//[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"登录"]];
-    NSArray *list1 = [[NSArray alloc]initWithObjects:@"重载网络",@"imgname", nil];
-    NSArray *list2 = [[NSArray alloc]initWithObjects:@"检查更新",@"imgname", nil];
-    NSArray *list3 = [[NSArray alloc]initWithObjects:@"登出",@"imgname", nil];
+    NSArray *list1 = [[[NSArray alloc]initWithObjects:@"重载网络",@"imgname", nil]autorelease];
+    NSArray *list2 = [[[NSArray alloc]initWithObjects:@"检查更新",@"imgname", nil]autorelease];
+    NSArray *list3 = [[[NSArray alloc]initWithObjects:@"登出",@"imgname", nil]autorelease];
     List = [[NSArray alloc]initWithObjects:list1,list2,list3, nil];
 }
 
@@ -202,10 +202,11 @@ static NSString *identifier = @"cell";
 
 -(void)Update
 {
-    UIWebView *up = [[UIWebView alloc]init];
+    UIWebView *up = [[[UIWebView alloc]init]autorelease];
     NSURL *url =[NSURL URLWithString:[(AppDelegate *)[[UIApplication sharedApplication]delegate]Url]];
     NSURLRequest *request =[NSURLRequest requestWithURL:url];
     [up loadRequest:request];
+    [self.view addSubview:up];
     NSLog(@"开始更新",nil);
 
 }

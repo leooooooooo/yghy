@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B33F5E8F1AE4977F0047BF73 /* YRSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B33F5E8E1AE4977F0047BF73 /* YRSideViewController.m */; };
+		B32ABB581AEF34320030DD3C /* YRSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B32ABB571AEF34320030DD3C /* YRSideViewController.m */; };
 		B33F5E951AE4EE320047BF73 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B33F5E921AE4EE320047BF73 /* SVProgressHUD.bundle */; };
 		B33F5E961AE4EE320047BF73 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B33F5E941AE4EE320047BF73 /* SVProgressHUD.m */; };
 		B36B0C1E1AE29649000B4F7B /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36B0C1C1AE29649000B4F7B /* LeftViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -23,8 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B33F5E8D1AE4977F0047BF73 /* YRSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRSideViewController.h; sourceTree = "<group>"; };
-		B33F5E8E1AE4977F0047BF73 /* YRSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRSideViewController.m; sourceTree = "<group>"; };
+		B32ABB561AEF34320030DD3C /* YRSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRSideViewController.h; sourceTree = "<group>"; };
+		B32ABB571AEF34320030DD3C /* YRSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRSideViewController.m; sourceTree = "<group>"; };
 		B33F5E921AE4EE320047BF73 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		B33F5E931AE4EE320047BF73 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		B33F5E941AE4EE320047BF73 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
@@ -64,8 +64,8 @@
 		B33F5E901AE4EDDB0047BF73 /* YRSide */ = {
 			isa = PBXGroup;
 			children = (
-				B33F5E8D1AE4977F0047BF73 /* YRSideViewController.h */,
-				B33F5E8E1AE4977F0047BF73 /* YRSideViewController.m */,
+				B32ABB561AEF34320030DD3C /* YRSideViewController.h */,
+				B32ABB571AEF34320030DD3C /* YRSideViewController.m */,
 			);
 			name = YRSide;
 			sourceTree = "<group>";
@@ -236,9 +236,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B33F5E8F1AE4977F0047BF73 /* YRSideViewController.m in Sources */,
 				B37CA1991AE1FD7800F42837 /* AppDelegate.m in Sources */,
 				B36B0C1E1AE29649000B4F7B /* LeftViewController.m in Sources */,
+				B32ABB581AEF34320030DD3C /* YRSideViewController.m in Sources */,
 				B37CA1961AE1FD7800F42837 /* main.m in Sources */,
 				B37CA19C1AE1FD7800F42837 /* yghy.xcdatamodeld in Sources */,
 				B33F5E961AE4EE320047BF73 /* SVProgressHUD.m in Sources */,
@@ -359,7 +359,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Lianyungang Port Group Communications and Information Engineering Company";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lianyungang Port Group Communications and Information Engineering Company";
 				INFOPLIST_FILE = yghy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "云港海运";
 				PROVISIONING_PROFILE = "92f8d16c-60fd-4877-bd65-7f27335fe658";
@@ -373,7 +373,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Lianyungang Port Group Communications and Information Engineering Company";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lianyungang Port Group Communications and Information Engineering Company";
 				INFOPLIST_FILE = yghy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "云港海运";
 				PROVISIONING_PROFILE = "92f8d16c-60fd-4877-bd65-7f27335fe658";
