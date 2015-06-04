@@ -11,6 +11,8 @@
 		B33F5E951AE4EE320047BF73 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B33F5E921AE4EE320047BF73 /* SVProgressHUD.bundle */; };
 		B33F5E961AE4EE320047BF73 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B33F5E941AE4EE320047BF73 /* SVProgressHUD.m */; };
 		B36B0C1E1AE29649000B4F7B /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36B0C1C1AE29649000B4F7B /* LeftViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B3732D061B12B45D001D1EFA /* titleBar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = B3732D051B12B45D001D1EFA /* titleBar_bg.png */; };
+		B3732D081B12B620001D1EFA /* button_close.png in Resources */ = {isa = PBXBuildFile; fileRef = B3732D071B12B620001D1EFA /* button_close.png */; };
 		B37CA1961AE1FD7800F42837 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B37CA1951AE1FD7800F42837 /* main.m */; };
 		B37CA1991AE1FD7800F42837 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B37CA1981AE1FD7800F42837 /* AppDelegate.m */; };
 		B37CA19C1AE1FD7800F42837 /* yghy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B37CA19A1AE1FD7800F42837 /* yghy.xcdatamodeld */; };
@@ -30,6 +32,8 @@
 		B33F5E941AE4EE320047BF73 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		B36B0C1B1AE29649000B4F7B /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
 		B36B0C1C1AE29649000B4F7B /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		B3732D051B12B45D001D1EFA /* titleBar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titleBar_bg.png; sourceTree = "<group>"; };
+		B3732D071B12B620001D1EFA /* button_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_close.png; sourceTree = "<group>"; };
 		B37CA1901AE1FD7800F42837 /* 云港海运.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "云港海运.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37CA1941AE1FD7800F42837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B37CA1951AE1FD7800F42837 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -115,6 +119,8 @@
 				B37CA1D21AE2140D00F42837 /* IndexViewController.m */,
 				B36B0C1B1AE29649000B4F7B /* LeftViewController.h */,
 				B36B0C1C1AE29649000B4F7B /* LeftViewController.m */,
+				B3732D051B12B45D001D1EFA /* titleBar_bg.png */,
+				B3732D071B12B620001D1EFA /* button_close.png */,
 			);
 			path = yghy;
 			sourceTree = "<group>";
@@ -222,8 +228,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3732D081B12B620001D1EFA /* button_close.png in Resources */,
 				B37CA1A21AE1FD7800F42837 /* Main.storyboard in Resources */,
 				B37CA1CF1AE2005E00F42837 /* Images.xcassets in Resources */,
+				B3732D061B12B45D001D1EFA /* titleBar_bg.png in Resources */,
 				B37CA1A71AE1FD7800F42837 /* LaunchScreen.xib in Resources */,
 				B33F5E951AE4EE320047BF73 /* SVProgressHUD.bundle in Resources */,
 			);

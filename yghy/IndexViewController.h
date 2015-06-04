@@ -12,8 +12,24 @@
 
 @interface IndexViewController : UIViewController<UIWebViewDelegate,MenuDelegate>{
     IBOutlet UIWebView *webView;
-}
-- (void)loadWebPageWithString:(NSString*)urlString;
+    
+    UIWebView              *contentWebView;
+    UIWebView              *showAffixView;
+    UIButton               *closeBtn;
+    UILabel                *titleLable;
+    
+    BOOL                   showAffix;
+    BOOL                   isEmail;
+    
 
+}
+@property (nonatomic, retain) UIButton               *backBtn;
+@property (nonatomic, retain) UIWebView              *contentWebView;
+@property (nonatomic, retain) UIWebView              *showAffixView;
+@property (nonatomic, assign) BOOL                   showAffix;
+@property (nonatomic, assign) BOOL                   isEmail;
+- (void)loadWebPageWithString:(NSString*)urlString;
+- (void)addWebView;
+- (void)removeWebView;
 
 @end
