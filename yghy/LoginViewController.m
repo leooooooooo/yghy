@@ -12,6 +12,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import "IndexViewController.h"
 #import "LeftViewController.h"
+#import "Update.h"
 
 #define UpdateAlertViewTag 1
 
@@ -35,7 +36,9 @@
     self.keepkeyswitch.on = NO;
     self.autologinswitch.on = NO;
     
-    [self GetUpdateInfo];
+    self.UpdateDelegate = [[Update alloc]init];
+    
+    [self.UpdateDelegate GetUpdateInfo:self.view];
     //当前版本
     UILabel *Version = [[[UILabel alloc]initWithFrame:CGRectMake(20, self.view.bounds.size.height-65, 200, 30)]autorelease];
     Version.text = [NSString stringWithFormat:@"当前版本：%@",[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]];
@@ -45,7 +48,7 @@
     
     
 }
-
+/*
 - (void)CheckUpdate{
     UIAlertView *alert;
     if ([[(AppDelegate *)[[UIApplication sharedApplication]delegate]Update]isEqualToString:@"Yes"]) {
@@ -157,7 +160,7 @@
     }];
     
 }
-
+*/
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

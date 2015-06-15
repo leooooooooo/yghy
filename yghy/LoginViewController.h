@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "YRSideViewController.h"
-
+#import "Update.h"
 #import "KeychainItemWrapper.h"
 
 @interface LoginViewController : UIViewController<UITextFieldDelegate>{
@@ -23,6 +23,7 @@
 @property (strong, nonatomic) IBOutlet UITextField *ID;
 @property (strong, nonatomic) IBOutlet UIButton *signin;
 @property (strong, nonatomic) IBOutlet UITextField *PW;
+@property (retain,nonatomic)id<UpdateDelegate>UpdateDelegate;
 - (IBAction)keyboarddisapper:(id)sender;
 - (IBAction)topassword:(id)sender;
 - (IBAction)dis:(id)sender;

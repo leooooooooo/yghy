@@ -147,7 +147,8 @@ static NSString *identifier = @"cell";
             [self.ReloadDelegate Reload];
             break;
         case 1:
-            [self CheckUpdate];
+            self.UpdateDelegate = [[Update alloc]init];
+            [self.UpdateDelegate CheckUpdate:self.view];
             break;
         case 2:
             [self Logout];
@@ -169,6 +170,8 @@ static NSString *identifier = @"cell";
     }];
 
 }
+
+/*
 
 - (void)CheckUpdate{
     UIAlertView *alert;
@@ -210,6 +213,6 @@ static NSString *identifier = @"cell";
     NSLog(@"开始更新",nil);
 
 }
-
+*/
 
 @end

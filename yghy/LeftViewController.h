@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "KeychainItemWrapper.h"
+#import "Update.h"
 
 
 @protocol MenuDelegate
@@ -19,4 +20,5 @@
     KeychainItemWrapper *status;
 }
 @property(assign,nonatomic)id<MenuDelegate>ReloadDelegate;
+@property(assign,nonatomic)id<UpdateDelegate>UpdateDelegate;
 @end
