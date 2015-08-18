@@ -24,11 +24,6 @@
 		B36DC1381B69FA2D00402EC5 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1331B69FA2D00402EC5 /* ContactsViewController.m */; };
 		B36DC13B1B69FA3700402EC5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC13A1B69FA3700402EC5 /* Person.m */; };
 		B36DC13E1B704E6900402EC5 /* MessageListButtonNoCount.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC13D1B704E6900402EC5 /* MessageListButtonNoCount.m */; };
-		B36DC1C51B70A9EC00402EC5 /* CLLRefreshCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1BD1B70A9EC00402EC5 /* CLLRefreshCircleView.m */; };
-		B36DC1C61B70A9EC00402EC5 /* CLLRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1BF1B70A9EC00402EC5 /* CLLRefreshFooterView.m */; };
-		B36DC1C71B70A9EC00402EC5 /* CLLRefreshHeadController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1C11B70A9EC00402EC5 /* CLLRefreshHeadController.m */; };
-		B36DC1C81B70A9EC00402EC5 /* CLLRefreshHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1C31B70A9EC00402EC5 /* CLLRefreshHeadView.m */; };
-		B36DC1C91B70A9EC00402EC5 /* ReadMe.strings in Resources */ = {isa = PBXBuildFile; fileRef = B36DC1C41B70A9EC00402EC5 /* ReadMe.strings */; };
 		B36DC1CF1B70AACF00402EC5 /* ExcelListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1CE1B70AACF00402EC5 /* ExcelListTableViewController.m */; };
 		B36DC1D21B71A38E00402EC5 /* NewsListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1D11B71A38E00402EC5 /* NewsListTableViewController.m */; };
 		B37248711B4B621200A4CE6D /* OAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B37248701B4B621200A4CE6D /* OAViewController.m */; };
@@ -43,6 +38,11 @@
 		B37CA1CD1AE1FEF400F42837 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B37CA1CC1AE1FEF400F42837 /* LoginViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B37CA1CF1AE2005E00F42837 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37CA1CE1AE2005E00F42837 /* Images.xcassets */; };
 		B37CA1D31AE2140D00F42837 /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B37CA1D21AE2140D00F42837 /* IndexViewController.m */; };
+		B3CB0DE51B82DBFF00C1CEAE /* CLLRefreshCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CB0DDD1B82DBFF00C1CEAE /* CLLRefreshCircleView.m */; };
+		B3CB0DE61B82DBFF00C1CEAE /* CLLRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CB0DDF1B82DBFF00C1CEAE /* CLLRefreshFooterView.m */; };
+		B3CB0DE71B82DBFF00C1CEAE /* CLLRefreshHeadController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CB0DE11B82DBFF00C1CEAE /* CLLRefreshHeadController.m */; };
+		B3CB0DE81B82DBFF00C1CEAE /* CLLRefreshHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CB0DE31B82DBFF00C1CEAE /* CLLRefreshHeadView.m */; };
+		B3CB0DE91B82DBFF00C1CEAE /* ReadMe.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3CB0DE41B82DBFF00C1CEAE /* ReadMe.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,15 +77,6 @@
 		B36DC13A1B69FA3700402EC5 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		B36DC13C1B704E6900402EC5 /* MessageListButtonNoCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageListButtonNoCount.h; sourceTree = "<group>"; };
 		B36DC13D1B704E6900402EC5 /* MessageListButtonNoCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageListButtonNoCount.m; sourceTree = "<group>"; };
-		B36DC1BC1B70A9EC00402EC5 /* CLLRefreshCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLRefreshCircleView.h; sourceTree = "<group>"; };
-		B36DC1BD1B70A9EC00402EC5 /* CLLRefreshCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLRefreshCircleView.m; sourceTree = "<group>"; };
-		B36DC1BE1B70A9EC00402EC5 /* CLLRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLRefreshFooterView.h; sourceTree = "<group>"; };
-		B36DC1BF1B70A9EC00402EC5 /* CLLRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLRefreshFooterView.m; sourceTree = "<group>"; };
-		B36DC1C01B70A9EC00402EC5 /* CLLRefreshHeadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLRefreshHeadController.h; sourceTree = "<group>"; };
-		B36DC1C11B70A9EC00402EC5 /* CLLRefreshHeadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLRefreshHeadController.m; sourceTree = "<group>"; };
-		B36DC1C21B70A9EC00402EC5 /* CLLRefreshHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLRefreshHeadView.h; sourceTree = "<group>"; };
-		B36DC1C31B70A9EC00402EC5 /* CLLRefreshHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLRefreshHeadView.m; sourceTree = "<group>"; };
-		B36DC1C41B70A9EC00402EC5 /* ReadMe.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = ReadMe.strings; sourceTree = "<group>"; };
 		B36DC1CD1B70AACF00402EC5 /* ExcelListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExcelListTableViewController.h; sourceTree = "<group>"; };
 		B36DC1CE1B70AACF00402EC5 /* ExcelListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExcelListTableViewController.m; sourceTree = "<group>"; };
 		B36DC1D01B71A38E00402EC5 /* NewsListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsListTableViewController.h; sourceTree = "<group>"; };
@@ -112,6 +103,15 @@
 		B37CA1D01AE2012400F42837 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		B37CA1D11AE2140D00F42837 /* IndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
 		B37CA1D21AE2140D00F42837 /* IndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
+		B3CB0DDC1B82DBFF00C1CEAE /* CLLRefreshCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLRefreshCircleView.h; sourceTree = "<group>"; };
+		B3CB0DDD1B82DBFF00C1CEAE /* CLLRefreshCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLRefreshCircleView.m; sourceTree = "<group>"; };
+		B3CB0DDE1B82DBFF00C1CEAE /* CLLRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLRefreshFooterView.h; sourceTree = "<group>"; };
+		B3CB0DDF1B82DBFF00C1CEAE /* CLLRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLRefreshFooterView.m; sourceTree = "<group>"; };
+		B3CB0DE01B82DBFF00C1CEAE /* CLLRefreshHeadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLRefreshHeadController.h; sourceTree = "<group>"; };
+		B3CB0DE11B82DBFF00C1CEAE /* CLLRefreshHeadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLRefreshHeadController.m; sourceTree = "<group>"; };
+		B3CB0DE21B82DBFF00C1CEAE /* CLLRefreshHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLRefreshHeadView.h; sourceTree = "<group>"; };
+		B3CB0DE31B82DBFF00C1CEAE /* CLLRefreshHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLRefreshHeadView.m; sourceTree = "<group>"; };
+		B3CB0DE41B82DBFF00C1CEAE /* ReadMe.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = ReadMe.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,15 +211,15 @@
 		B36DC1BB1B70A9EC00402EC5 /* RefreshHeadView */ = {
 			isa = PBXGroup;
 			children = (
-				B36DC1BC1B70A9EC00402EC5 /* CLLRefreshCircleView.h */,
-				B36DC1BD1B70A9EC00402EC5 /* CLLRefreshCircleView.m */,
-				B36DC1BE1B70A9EC00402EC5 /* CLLRefreshFooterView.h */,
-				B36DC1BF1B70A9EC00402EC5 /* CLLRefreshFooterView.m */,
-				B36DC1C01B70A9EC00402EC5 /* CLLRefreshHeadController.h */,
-				B36DC1C11B70A9EC00402EC5 /* CLLRefreshHeadController.m */,
-				B36DC1C21B70A9EC00402EC5 /* CLLRefreshHeadView.h */,
-				B36DC1C31B70A9EC00402EC5 /* CLLRefreshHeadView.m */,
-				B36DC1C41B70A9EC00402EC5 /* ReadMe.strings */,
+				B3CB0DDC1B82DBFF00C1CEAE /* CLLRefreshCircleView.h */,
+				B3CB0DDD1B82DBFF00C1CEAE /* CLLRefreshCircleView.m */,
+				B3CB0DDE1B82DBFF00C1CEAE /* CLLRefreshFooterView.h */,
+				B3CB0DDF1B82DBFF00C1CEAE /* CLLRefreshFooterView.m */,
+				B3CB0DE01B82DBFF00C1CEAE /* CLLRefreshHeadController.h */,
+				B3CB0DE11B82DBFF00C1CEAE /* CLLRefreshHeadController.m */,
+				B3CB0DE21B82DBFF00C1CEAE /* CLLRefreshHeadView.h */,
+				B3CB0DE31B82DBFF00C1CEAE /* CLLRefreshHeadView.m */,
+				B3CB0DE41B82DBFF00C1CEAE /* ReadMe.strings */,
 			);
 			path = RefreshHeadView;
 			sourceTree = "<group>";
@@ -387,9 +387,9 @@
 				B37CA1A21AE1FD7800F42837 /* Main.storyboard in Resources */,
 				B37CA1CF1AE2005E00F42837 /* Images.xcassets in Resources */,
 				B3732D061B12B45D001D1EFA /* titleBar_bg.png in Resources */,
+				B3CB0DE91B82DBFF00C1CEAE /* ReadMe.strings in Resources */,
 				B37CA1A71AE1FD7800F42837 /* LaunchScreen.xib in Resources */,
 				B33F5E951AE4EE320047BF73 /* SVProgressHUD.bundle in Resources */,
-				B36DC1C91B70A9EC00402EC5 /* ReadMe.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,26 +401,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				B31C98F41B2E6ACE00E4CC4F /* Update.m in Sources */,
-				B36DC1C61B70A9EC00402EC5 /* CLLRefreshFooterView.m in Sources */,
 				B37CA1991AE1FD7800F42837 /* AppDelegate.m in Sources */,
 				B36DC13E1B704E6900402EC5 /* MessageListButtonNoCount.m in Sources */,
 				B36DC13B1B69FA3700402EC5 /* Person.m in Sources */,
 				B36DC1371B69FA2D00402EC5 /* ContactsTableViewController.m in Sources */,
 				B36B0C1E1AE29649000B4F7B /* LeftViewController.m in Sources */,
 				B36DC1271B68B67500402EC5 /* MainViewController.m in Sources */,
+				B3CB0DE51B82DBFF00C1CEAE /* CLLRefreshCircleView.m in Sources */,
 				B36DC1341B69FA2D00402EC5 /* ContactDetailViewController.m in Sources */,
-				B36DC1C51B70A9EC00402EC5 /* CLLRefreshCircleView.m in Sources */,
-				B36DC1C81B70A9EC00402EC5 /* CLLRefreshHeadView.m in Sources */,
 				B32ABB581AEF34320030DD3C /* YRSideViewController.m in Sources */,
+				B3CB0DE61B82DBFF00C1CEAE /* CLLRefreshFooterView.m in Sources */,
 				B36DC11D1B68862200402EC5 /* MessageClassButton.m in Sources */,
 				B36DC1CF1B70AACF00402EC5 /* ExcelListTableViewController.m in Sources */,
+				B3CB0DE81B82DBFF00C1CEAE /* CLLRefreshHeadView.m in Sources */,
 				B36DC11E1B68862200402EC5 /* MessageListButton.m in Sources */,
 				B36DC1351B69FA2D00402EC5 /* Contacts.xcdatamodeld in Sources */,
 				B36DC1381B69FA2D00402EC5 /* ContactsViewController.m in Sources */,
 				B37CA1961AE1FD7800F42837 /* main.m in Sources */,
 				B37248711B4B621200A4CE6D /* OAViewController.m in Sources */,
+				B3CB0DE71B82DBFF00C1CEAE /* CLLRefreshHeadController.m in Sources */,
 				B36DC1D21B71A38E00402EC5 /* NewsListTableViewController.m in Sources */,
-				B36DC1C71B70A9EC00402EC5 /* CLLRefreshHeadController.m in Sources */,
 				B37CA19C1AE1FD7800F42837 /* yghy.xcdatamodeld in Sources */,
 				B36DC11C1B68862200402EC5 /* MessageButton.m in Sources */,
 				B33F5E961AE4EE320047BF73 /* SVProgressHUD.m in Sources */,
