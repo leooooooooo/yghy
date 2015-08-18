@@ -22,6 +22,7 @@
 @property(retain,nonatomic) NSString *Update;
 @property(retain,nonatomic) NSString *Version;
 @property(retain,nonatomic) NSString *Url;
+@property(retain,nonatomic) NSArray *FunctionList;
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
 

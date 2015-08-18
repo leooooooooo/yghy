@@ -332,7 +332,7 @@
     
     CGFloat totalWidth=_baseView.frame.size.width;
     CGFloat totalHeight=_baseView.frame.size.height;
-    if (UIInterfaceOrientationIsLandscape(self.interfaceOrientation)) {
+    if (UIInterfaceOrientationIsLandscape([UIApplication sharedApplication].statusBarOrientation)) {
         totalHeight=_baseView.frame.size.width;
         totalWidth=_baseView.frame.size.height;
     }

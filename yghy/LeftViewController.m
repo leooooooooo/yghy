@@ -147,7 +147,7 @@ static NSString *identifier = @"cell";
             [self.ReloadDelegate Reload];
             break;
         case 1:
-            self.UpdateDelegate = [[Update alloc]init];
+            self.UpdateDelegate = [[[Update alloc]init]autorelease];
             [self.UpdateDelegate CheckUpdate:self.view];
             break;
         case 2:

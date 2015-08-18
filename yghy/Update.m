@@ -99,7 +99,7 @@
                 newVersion.titleLabel.font = [UIFont boldSystemFontOfSize:14];
                 [newVersion setTitleColor:[UIColor yellowColor] forState:UIControlStateNormal];
                 newVersion.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
-                [newVersion addTarget:self action:@selector(CheckUpdate) forControlEvents:UIControlEventTouchUpInside];
+                [newVersion addTarget:self action:@selector(CheckUpdate:) forControlEvents:UIControlEventTouchUpInside];
                 [self.view addSubview:newVersion];
                 alert.tag =UpdateAlertViewTag;
                 [alert show];

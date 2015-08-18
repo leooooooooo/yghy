@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "YRSideViewController.h"
 #import "Update.h"
 #import "KeychainItemWrapper.h"
 
@@ -17,7 +16,6 @@
     KeychainItemWrapper *status;
 
 }
-@property (strong,nonatomic) YRSideViewController *sideViewController;
 @property (retain, nonatomic) IBOutlet UISwitch *autologinswitch;
 @property (retain, nonatomic) IBOutlet UISwitch *keepkeyswitch;
 @property (strong, nonatomic) IBOutlet UITextField *ID;

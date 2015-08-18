@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="15Q-rQ-106">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="15Q-rQ-106">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--Login View Controller-->
@@ -123,49 +123,15 @@
                         <outlet property="autologinswitch" destination="pav-9d-pPD" id="xes-Va-LRX"/>
                         <outlet property="keepkeyswitch" destination="wBK-4N-Kay" id="e2g-6z-A2r"/>
                         <outlet property="signin" destination="LpD-SB-zFW" id="CKq-ru-Oyh"/>
-                        <segue destination="Sbr-d9-CjE" kind="modal" identifier="login" id="C5X-3l-rX5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qhn-qd-yrg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="108" y="519"/>
         </scene>
-        <!--Index View Controller-->
-        <scene sceneID="Ita-im-g4R">
-            <objects>
-                <viewController storyboardIdentifier="IndexView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Sbr-d9-CjE" customClass="IndexViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="pD4-El-pJa">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QQ20150418-2" id="Kh8-gQ-mUf">
-                                <rect key="frame" x="0.0" y="0.0" width="500" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <webView contentMode="scaleToFill" id="Ecz-KC-uVx">
-                                <rect key="frame" x="0.0" y="175" width="320" height="393"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <gestureRecognizers/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Pdb-Cg-CSf"/>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="568"/>
-                    <connections>
-                        <outlet property="webView" destination="Ecz-KC-uVx" id="Scf-9k-g5L"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uIg-Te-pwT" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="586" y="519"/>
-        </scene>
     </scenes>
     <resources>
         <image name=",6，" width="640" height="344"/>
-        <image name="QQ20150418-2" width="85" height="9"/>
         <image name="登录_07" width="36" height="43"/>
         <image name="登录_10" width="36" height="43"/>
         <image name="登录_13" width="760" height="88"/>

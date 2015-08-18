@@ -12,6 +12,26 @@
 		B33F5E951AE4EE320047BF73 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B33F5E921AE4EE320047BF73 /* SVProgressHUD.bundle */; };
 		B33F5E961AE4EE320047BF73 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B33F5E941AE4EE320047BF73 /* SVProgressHUD.m */; };
 		B36B0C1E1AE29649000B4F7B /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36B0C1C1AE29649000B4F7B /* LeftViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B36DC11C1B68862200402EC5 /* MessageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1171B68862200402EC5 /* MessageButton.m */; };
+		B36DC11D1B68862200402EC5 /* MessageClassButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1191B68862200402EC5 /* MessageClassButton.m */; };
+		B36DC11E1B68862200402EC5 /* MessageListButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC11B1B68862200402EC5 /* MessageListButton.m */; };
+		B36DC1231B6888D000402EC5 /* Header.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1221B6888D000402EC5 /* Header.m */; };
+		B36DC1271B68B67500402EC5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1261B68B67500402EC5 /* MainViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B36DC1341B69FA2D00402EC5 /* ContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC12B1B69FA2D00402EC5 /* ContactDetailViewController.m */; };
+		B36DC1351B69FA2D00402EC5 /* Contacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B36DC12C1B69FA2D00402EC5 /* Contacts.xcdatamodeld */; };
+		B36DC1361B69FA2D00402EC5 /* ContactsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC12F1B69FA2D00402EC5 /* ContactsManager.m */; };
+		B36DC1371B69FA2D00402EC5 /* ContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1311B69FA2D00402EC5 /* ContactsTableViewController.m */; };
+		B36DC1381B69FA2D00402EC5 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1331B69FA2D00402EC5 /* ContactsViewController.m */; };
+		B36DC13B1B69FA3700402EC5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC13A1B69FA3700402EC5 /* Person.m */; };
+		B36DC13E1B704E6900402EC5 /* MessageListButtonNoCount.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC13D1B704E6900402EC5 /* MessageListButtonNoCount.m */; };
+		B36DC1C51B70A9EC00402EC5 /* CLLRefreshCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1BD1B70A9EC00402EC5 /* CLLRefreshCircleView.m */; };
+		B36DC1C61B70A9EC00402EC5 /* CLLRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1BF1B70A9EC00402EC5 /* CLLRefreshFooterView.m */; };
+		B36DC1C71B70A9EC00402EC5 /* CLLRefreshHeadController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1C11B70A9EC00402EC5 /* CLLRefreshHeadController.m */; };
+		B36DC1C81B70A9EC00402EC5 /* CLLRefreshHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1C31B70A9EC00402EC5 /* CLLRefreshHeadView.m */; };
+		B36DC1C91B70A9EC00402EC5 /* ReadMe.strings in Resources */ = {isa = PBXBuildFile; fileRef = B36DC1C41B70A9EC00402EC5 /* ReadMe.strings */; };
+		B36DC1CF1B70AACF00402EC5 /* ExcelListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1CE1B70AACF00402EC5 /* ExcelListTableViewController.m */; };
+		B36DC1D21B71A38E00402EC5 /* NewsListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1D11B71A38E00402EC5 /* NewsListTableViewController.m */; };
+		B37248711B4B621200A4CE6D /* OAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B37248701B4B621200A4CE6D /* OAViewController.m */; };
 		B3732D061B12B45D001D1EFA /* titleBar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = B3732D051B12B45D001D1EFA /* titleBar_bg.png */; };
 		B3732D081B12B620001D1EFA /* button_close.png in Resources */ = {isa = PBXBuildFile; fileRef = B3732D071B12B620001D1EFA /* button_close.png */; };
 		B37CA1961AE1FD7800F42837 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B37CA1951AE1FD7800F42837 /* main.m */; };
@@ -35,6 +55,43 @@
 		B33F5E941AE4EE320047BF73 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		B36B0C1B1AE29649000B4F7B /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
 		B36B0C1C1AE29649000B4F7B /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		B36DC1161B68862200402EC5 /* MessageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageButton.h; sourceTree = "<group>"; };
+		B36DC1171B68862200402EC5 /* MessageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageButton.m; sourceTree = "<group>"; };
+		B36DC1181B68862200402EC5 /* MessageClassButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageClassButton.h; sourceTree = "<group>"; };
+		B36DC1191B68862200402EC5 /* MessageClassButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageClassButton.m; sourceTree = "<group>"; };
+		B36DC11A1B68862200402EC5 /* MessageListButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageListButton.h; sourceTree = "<group>"; };
+		B36DC11B1B68862200402EC5 /* MessageListButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageListButton.m; sourceTree = "<group>"; };
+		B36DC1221B6888D000402EC5 /* Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Header.m; sourceTree = "<group>"; };
+		B36DC1251B68B67500402EC5 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B36DC1261B68B67500402EC5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B36DC12A1B69FA2D00402EC5 /* ContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailViewController.h; sourceTree = "<group>"; };
+		B36DC12B1B69FA2D00402EC5 /* ContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailViewController.m; sourceTree = "<group>"; };
+		B36DC12D1B69FA2D00402EC5 /* Contacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Contacts.xcdatamodel; sourceTree = "<group>"; };
+		B36DC12E1B69FA2D00402EC5 /* ContactsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsManager.h; sourceTree = "<group>"; };
+		B36DC12F1B69FA2D00402EC5 /* ContactsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsManager.m; sourceTree = "<group>"; };
+		B36DC1301B69FA2D00402EC5 /* ContactsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsTableViewController.h; sourceTree = "<group>"; };
+		B36DC1311B69FA2D00402EC5 /* ContactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsTableViewController.m; sourceTree = "<group>"; };
+		B36DC1321B69FA2D00402EC5 /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		B36DC1331B69FA2D00402EC5 /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		B36DC1391B69FA3700402EC5 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		B36DC13A1B69FA3700402EC5 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		B36DC13C1B704E6900402EC5 /* MessageListButtonNoCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageListButtonNoCount.h; sourceTree = "<group>"; };
+		B36DC13D1B704E6900402EC5 /* MessageListButtonNoCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageListButtonNoCount.m; sourceTree = "<group>"; };
+		B36DC1BC1B70A9EC00402EC5 /* CLLRefreshCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLRefreshCircleView.h; sourceTree = "<group>"; };
+		B36DC1BD1B70A9EC00402EC5 /* CLLRefreshCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLRefreshCircleView.m; sourceTree = "<group>"; };
+		B36DC1BE1B70A9EC00402EC5 /* CLLRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLRefreshFooterView.h; sourceTree = "<group>"; };
+		B36DC1BF1B70A9EC00402EC5 /* CLLRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLRefreshFooterView.m; sourceTree = "<group>"; };
+		B36DC1C01B70A9EC00402EC5 /* CLLRefreshHeadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLRefreshHeadController.h; sourceTree = "<group>"; };
+		B36DC1C11B70A9EC00402EC5 /* CLLRefreshHeadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLRefreshHeadController.m; sourceTree = "<group>"; };
+		B36DC1C21B70A9EC00402EC5 /* CLLRefreshHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLRefreshHeadView.h; sourceTree = "<group>"; };
+		B36DC1C31B70A9EC00402EC5 /* CLLRefreshHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLRefreshHeadView.m; sourceTree = "<group>"; };
+		B36DC1C41B70A9EC00402EC5 /* ReadMe.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = ReadMe.strings; sourceTree = "<group>"; };
+		B36DC1CD1B70AACF00402EC5 /* ExcelListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExcelListTableViewController.h; sourceTree = "<group>"; };
+		B36DC1CE1B70AACF00402EC5 /* ExcelListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExcelListTableViewController.m; sourceTree = "<group>"; };
+		B36DC1D01B71A38E00402EC5 /* NewsListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsListTableViewController.h; sourceTree = "<group>"; };
+		B36DC1D11B71A38E00402EC5 /* NewsListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsListTableViewController.m; sourceTree = "<group>"; };
+		B372486F1B4B621200A4CE6D /* OAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAViewController.h; path = ../OAViewController.h; sourceTree = "<group>"; };
+		B37248701B4B621200A4CE6D /* OAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OAViewController.m; path = ../OAViewController.m; sourceTree = "<group>"; };
 		B3732D051B12B45D001D1EFA /* titleBar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titleBar_bg.png; sourceTree = "<group>"; };
 		B3732D071B12B620001D1EFA /* button_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_close.png; sourceTree = "<group>"; };
 		B37CA1901AE1FD7800F42837 /* 云港海运.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "云港海运.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +153,86 @@
 			name = SVProgressHUD;
 			sourceTree = "<group>";
 		};
+		B36DC1151B68860F00402EC5 /* index */ = {
+			isa = PBXGroup;
+			children = (
+				B37CA1D11AE2140D00F42837 /* IndexViewController.h */,
+				B37CA1D21AE2140D00F42837 /* IndexViewController.m */,
+				B36DC1161B68862200402EC5 /* MessageButton.h */,
+				B36DC1171B68862200402EC5 /* MessageButton.m */,
+				B36DC1181B68862200402EC5 /* MessageClassButton.h */,
+				B36DC1191B68862200402EC5 /* MessageClassButton.m */,
+				B36DC11A1B68862200402EC5 /* MessageListButton.h */,
+				B36DC11B1B68862200402EC5 /* MessageListButton.m */,
+				B36DC1251B68B67500402EC5 /* MainViewController.h */,
+				B36DC1261B68B67500402EC5 /* MainViewController.m */,
+				B36DC13C1B704E6900402EC5 /* MessageListButtonNoCount.h */,
+				B36DC13D1B704E6900402EC5 /* MessageListButtonNoCount.m */,
+			);
+			name = index;
+			sourceTree = "<group>";
+		};
+		B36DC1241B68B48C00402EC5 /* OA */ = {
+			isa = PBXGroup;
+			children = (
+				B372486F1B4B621200A4CE6D /* OAViewController.h */,
+				B37248701B4B621200A4CE6D /* OAViewController.m */,
+			);
+			name = OA;
+			sourceTree = "<group>";
+		};
+		B36DC1281B68BEC800402EC5 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				B36DC1D01B71A38E00402EC5 /* NewsListTableViewController.h */,
+				B36DC1D11B71A38E00402EC5 /* NewsListTableViewController.m */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		B36DC1291B69FA2100402EC5 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				B36DC1391B69FA3700402EC5 /* Person.h */,
+				B36DC13A1B69FA3700402EC5 /* Person.m */,
+				B36DC12A1B69FA2D00402EC5 /* ContactDetailViewController.h */,
+				B36DC12B1B69FA2D00402EC5 /* ContactDetailViewController.m */,
+				B36DC12C1B69FA2D00402EC5 /* Contacts.xcdatamodeld */,
+				B36DC12E1B69FA2D00402EC5 /* ContactsManager.h */,
+				B36DC12F1B69FA2D00402EC5 /* ContactsManager.m */,
+				B36DC1301B69FA2D00402EC5 /* ContactsTableViewController.h */,
+				B36DC1311B69FA2D00402EC5 /* ContactsTableViewController.m */,
+				B36DC1321B69FA2D00402EC5 /* ContactsViewController.h */,
+				B36DC1331B69FA2D00402EC5 /* ContactsViewController.m */,
+			);
+			name = Contacts;
+			sourceTree = "<group>";
+		};
+		B36DC1BB1B70A9EC00402EC5 /* RefreshHeadView */ = {
+			isa = PBXGroup;
+			children = (
+				B36DC1BC1B70A9EC00402EC5 /* CLLRefreshCircleView.h */,
+				B36DC1BD1B70A9EC00402EC5 /* CLLRefreshCircleView.m */,
+				B36DC1BE1B70A9EC00402EC5 /* CLLRefreshFooterView.h */,
+				B36DC1BF1B70A9EC00402EC5 /* CLLRefreshFooterView.m */,
+				B36DC1C01B70A9EC00402EC5 /* CLLRefreshHeadController.h */,
+				B36DC1C11B70A9EC00402EC5 /* CLLRefreshHeadController.m */,
+				B36DC1C21B70A9EC00402EC5 /* CLLRefreshHeadView.h */,
+				B36DC1C31B70A9EC00402EC5 /* CLLRefreshHeadView.m */,
+				B36DC1C41B70A9EC00402EC5 /* ReadMe.strings */,
+			);
+			path = RefreshHeadView;
+			sourceTree = "<group>";
+		};
+		B36DC1CC1B70AA4500402EC5 /* Ship */ = {
+			isa = PBXGroup;
+			children = (
+				B36DC1CD1B70AACF00402EC5 /* ExcelListTableViewController.h */,
+				B36DC1CE1B70AACF00402EC5 /* ExcelListTableViewController.m */,
+			);
+			name = Ship;
+			sourceTree = "<group>";
+		};
 		B37CA1871AE1FD7800F42837 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +253,11 @@
 		B37CA1921AE1FD7800F42837 /* yghy */ = {
 			isa = PBXGroup;
 			children = (
+				B36DC1CC1B70AA4500402EC5 /* Ship */,
+				B36DC1291B69FA2100402EC5 /* Contacts */,
+				B36DC1281B68BEC800402EC5 /* News */,
+				B36DC1241B68B48C00402EC5 /* OA */,
+				B36DC1151B68860F00402EC5 /* index */,
 				B37CA1BE1AE1FE0000F42837 /* Resource */,
 				B37CA1971AE1FD7800F42837 /* AppDelegate.h */,
 				B37CA1981AE1FD7800F42837 /* AppDelegate.m */,
@@ -124,11 +266,10 @@
 				B37CA1A01AE1FD7800F42837 /* Main.storyboard */,
 				B37CA1CE1AE2005E00F42837 /* Images.xcassets */,
 				B37CA1D01AE2012400F42837 /* Header.h */,
+				B36DC1221B6888D000402EC5 /* Header.m */,
 				B37CA1A51AE1FD7800F42837 /* LaunchScreen.xib */,
 				B37CA19A1AE1FD7800F42837 /* yghy.xcdatamodeld */,
 				B37CA1931AE1FD7800F42837 /* Supporting Files */,
-				B37CA1D11AE2140D00F42837 /* IndexViewController.h */,
-				B37CA1D21AE2140D00F42837 /* IndexViewController.m */,
 				B36B0C1B1AE29649000B4F7B /* LeftViewController.h */,
 				B36B0C1C1AE29649000B4F7B /* LeftViewController.m */,
 				B3732D051B12B45D001D1EFA /* titleBar_bg.png */,
@@ -166,6 +307,7 @@
 		B37CA1BE1AE1FE0000F42837 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				B36DC1BB1B70A9EC00402EC5 /* RefreshHeadView */,
 				B31C994A1B2E9B3F00E4CC4F /* Update */,
 				B33F5E911AE4EE290047BF73 /* SVProgressHUD */,
 				B33F5E901AE4EDDB0047BF73 /* YRSide */,
@@ -247,6 +389,7 @@
 				B3732D061B12B45D001D1EFA /* titleBar_bg.png in Resources */,
 				B37CA1A71AE1FD7800F42837 /* LaunchScreen.xib in Resources */,
 				B33F5E951AE4EE320047BF73 /* SVProgressHUD.bundle in Resources */,
+				B36DC1C91B70A9EC00402EC5 /* ReadMe.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,12 +401,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				B31C98F41B2E6ACE00E4CC4F /* Update.m in Sources */,
+				B36DC1C61B70A9EC00402EC5 /* CLLRefreshFooterView.m in Sources */,
 				B37CA1991AE1FD7800F42837 /* AppDelegate.m in Sources */,
+				B36DC13E1B704E6900402EC5 /* MessageListButtonNoCount.m in Sources */,
+				B36DC13B1B69FA3700402EC5 /* Person.m in Sources */,
+				B36DC1371B69FA2D00402EC5 /* ContactsTableViewController.m in Sources */,
 				B36B0C1E1AE29649000B4F7B /* LeftViewController.m in Sources */,
+				B36DC1271B68B67500402EC5 /* MainViewController.m in Sources */,
+				B36DC1341B69FA2D00402EC5 /* ContactDetailViewController.m in Sources */,
+				B36DC1C51B70A9EC00402EC5 /* CLLRefreshCircleView.m in Sources */,
+				B36DC1C81B70A9EC00402EC5 /* CLLRefreshHeadView.m in Sources */,
 				B32ABB581AEF34320030DD3C /* YRSideViewController.m in Sources */,
+				B36DC11D1B68862200402EC5 /* MessageClassButton.m in Sources */,
+				B36DC1CF1B70AACF00402EC5 /* ExcelListTableViewController.m in Sources */,
+				B36DC11E1B68862200402EC5 /* MessageListButton.m in Sources */,
+				B36DC1351B69FA2D00402EC5 /* Contacts.xcdatamodeld in Sources */,
+				B36DC1381B69FA2D00402EC5 /* ContactsViewController.m in Sources */,
 				B37CA1961AE1FD7800F42837 /* main.m in Sources */,
+				B37248711B4B621200A4CE6D /* OAViewController.m in Sources */,
+				B36DC1D21B71A38E00402EC5 /* NewsListTableViewController.m in Sources */,
+				B36DC1C71B70A9EC00402EC5 /* CLLRefreshHeadController.m in Sources */,
 				B37CA19C1AE1FD7800F42837 /* yghy.xcdatamodeld in Sources */,
+				B36DC11C1B68862200402EC5 /* MessageButton.m in Sources */,
 				B33F5E961AE4EE320047BF73 /* SVProgressHUD.m in Sources */,
+				B36DC1231B6888D000402EC5 /* Header.m in Sources */,
+				B36DC1361B69FA2D00402EC5 /* ContactsManager.m in Sources */,
 				B37CA1CD1AE1FEF400F42837 /* LoginViewController.m in Sources */,
 				B37CA1CA1AE1FEE800F42837 /* KeychainItemWrapper.m in Sources */,
 				B37CA1D31AE2140D00F42837 /* IndexViewController.m in Sources */,
@@ -378,17 +540,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Lianyungang Port Group Communications and Information Engineering Company";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lianyungang Port Group Communications and Information Engineering Company";
 				INFOPLIST_FILE = yghy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/yghy",
 				);
 				PRODUCT_NAME = "云港海运";
-				PROVISIONING_PROFILE = "92f8d16c-60fd-4877-bd65-7f27335fe658";
+				PROVISIONING_PROFILE = "1cbcd425-b578-4051-9cab-011e359d9b0f";
 			};
 			name = Debug;
 		};
@@ -396,17 +559,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Lianyungang Port Group Communications and Information Engineering Company";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lianyungang Port Group Communications and Information Engineering Company";
 				INFOPLIST_FILE = yghy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/yghy",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "云港海运";
-				PROVISIONING_PROFILE = "92f8d16c-60fd-4877-bd65-7f27335fe658";
+				PROVISIONING_PROFILE = "1cbcd425-b578-4051-9cab-011e359d9b0f";
 			};
 			name = Release;
 		};
@@ -434,6 +599,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		B36DC12C1B69FA2D00402EC5 /* Contacts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B36DC12D1B69FA2D00402EC5 /* Contacts.xcdatamodel */,
+			);
+			currentVersion = B36DC12D1B69FA2D00402EC5 /* Contacts.xcdatamodel */;
+			path = Contacts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		B37CA19A1AE1FD7800F42837 /* yghy.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
