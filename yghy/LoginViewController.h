@@ -11,10 +11,7 @@
 #import "KeychainItemWrapper.h"
 
 @interface LoginViewController : UIViewController<UITextFieldDelegate>{
-
-    KeychainItemWrapper *wrapper;
-    KeychainItemWrapper *status;
-
+    NSUserDefaults *KeyChain;
 }
 @property (retain, nonatomic) IBOutlet UISwitch *autologinswitch;
 @property (retain, nonatomic) IBOutlet UISwitch *keepkeyswitch;

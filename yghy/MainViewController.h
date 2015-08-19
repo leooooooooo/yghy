@@ -10,10 +10,7 @@
 #import "IndexViewController.h"
 #import "KeychainItemWrapper.h"
 
-@interface MainViewController : UINavigationController<NavDelegate>{
-    
-    KeychainItemWrapper *status;
-}
+@interface MainViewController : UINavigationController<NavDelegate>
 
 
 @end

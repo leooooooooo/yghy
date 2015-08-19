@@ -59,46 +59,20 @@
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
     
-    wrapper = [[KeychainItemWrapper alloc] initWithIdentifier:@"Account Number"accessGroup:Bundle];
-    status =[[KeychainItemWrapper alloc] initWithIdentifier:@"status"accessGroup:Bundle];
     //从keychain里取出帐号密码状态
-    NSString *keepkey = [status objectForKey:(id)kSecAttrAccount];
-    NSString *autologin = [status objectForKey:(id)kSecValueData];
+    KeyChain = [NSUserDefaults standardUserDefaults];
     
-    
-    if([keepkey isEqual:@"1"]){
-        self.keepkeyswitch.on = YES;
-    }
-    if([keepkey isEqual:@"0"]){
-        self.keepkeyswitch.on = NO;
-    }
-    if([autologin isEqual:@"1"]){
-        self.autologinswitch.on = YES;
-    }
-    if([autologin isEqual:@"0"]){
-        self.autologinswitch.on = NO;
-    }
-    
-    
-    
-    //从keychain里取出帐号密码
-    NSString *password = [wrapper objectForKey:(id)kSecValueData];
-    NSString *account = [wrapper objectForKey:(id)kSecAttrAccount];
-    
-    self.ID.text = account;
-    self.PW.text = password;
+    self.keepkeyswitch.on = [KeyChain boolForKey:@"KeepKey"];
+    self.autologinswitch.on = [KeyChain boolForKey:@"AutoLogin"];
+    self.ID.text = [KeyChain objectForKey:@"UserName"];
+    self.PW.text = [KeyChain objectForKey:@"Password"];
 
     
-    if ([[status objectForKey:(id)kSecValueData] isEqual:@"1"]) {
+    if ([KeyChain boolForKey:@"AutoLogin"]) {
         [self signinbt];
     }
     
-    if([autologin isEqual:@"1"]){
-        self.autologinswitch.on = YES;
-    }
-    if([autologin isEqual:@"0"]){
-        self.autologinswitch.on = NO;
-    }
+    self.autologinswitch.on = [KeyChain boolForKey:@"AutoLogin"];
 
     //跳过登录
     //[self performSegueWithIdentifier:@"login" sender:self];
@@ -153,24 +127,14 @@
                 
                 
                 //保存按钮状态
-                if(self.keepkeyswitch.isOn)
-                {
-                    [status setObject:@"1" forKey:(id)kSecAttrAccount];
-                }else
-                {
-                    [status setObject:@"0" forKey:(id)kSecAttrAccount];
-                }
-                if(self.autologinswitch.isOn){
-                    [status setObject:@"1" forKey:(id)kSecValueData];
-                }else
-                {
-                    [status setObject:@"0" forKey:(id)kSecValueData];
-                }
+                [KeyChain setBool:self.autologinswitch.isOn forKey:@"AutoLogin"];
+                [KeyChain setBool:self.keepkeyswitch.isOn forKey:@"KeepKey"];
+                [KeyChain synchronize];
+                
                 if (self.keepkeyswitch.isOn) {
-                    //保存帐号
-                    [wrapper setObject:self.ID.text forKey:(id)kSecAttrAccount];
-                    //保存密码
-                    [wrapper setObject:self.PW.text forKey:(id)kSecValueData];
+                    [KeyChain setObject:self.ID.text forKey:@"UserName"];
+                    [KeyChain setObject:self.PW.text forKey:@"Password"];
+                    [KeyChain synchronize];
                 }
             }
             else
@@ -203,22 +167,13 @@
 }
 
 - (IBAction)keepkey:(id)sender {
-    BOOL isButtonOn = [sender isOn];
-    if (isButtonOn) {
-        NSLog(@"是");
-    }else {
-        [wrapper resetKeychainItem];
+    if (![sender isOn]){
+        [KeyChain removeObjectForKey:@"Password"];
     }
 }
 
 - (IBAction)autologin:(id)sender {
-    if(self.autologinswitch.on){
-        [status setObject:@"1" forKey:(id)kSecValueData];
-    }else
-    {
-        [status setObject:@"0" forKey:(id)kSecValueData];
-    }
-
+    [KeyChain setBool:self.autologinswitch.isOn forKey:@"AutoLogin"];
 }
 
 - (IBAction)keyboarddisapper:(id)sender {

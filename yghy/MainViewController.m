@@ -22,8 +22,8 @@
 }
 
 -(void)logout{
-    status =[[KeychainItemWrapper alloc] initWithIdentifier:@"status"accessGroup:Bundle];
-    [status setObject:@"0" forKey:(id)kSecValueData];
+    [[NSUserDefaults standardUserDefaults]setObject:(id)NO forKey:@"AutoLogin"];
+    [[NSUserDefaults standardUserDefaults]synchronize];
     [self dismissViewControllerAnimated:YES completion:^(void){
     AppDelegate *delegate =(AppDelegate *)[[UIApplication sharedApplication]delegate];
     delegate.UserName = nil;
