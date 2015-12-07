@@ -7,22 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B31A8BF41C0D3A0B002E4344 /* Leo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31A8BF31C0D3A0B002E4344 /* Leo.framework */; };
+		B31A8BF51C0D3A0B002E4344 /* Leo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B31A8BF31C0D3A0B002E4344 /* Leo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B31C98F41B2E6ACE00E4CC4F /* Update.m in Sources */ = {isa = PBXBuildFile; fileRef = B31C98F31B2E6ACE00E4CC4F /* Update.m */; };
 		B32ABB581AEF34320030DD3C /* YRSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B32ABB571AEF34320030DD3C /* YRSideViewController.m */; };
-		B33F5E951AE4EE320047BF73 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B33F5E921AE4EE320047BF73 /* SVProgressHUD.bundle */; };
-		B33F5E961AE4EE320047BF73 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B33F5E941AE4EE320047BF73 /* SVProgressHUD.m */; };
 		B36B0C1E1AE29649000B4F7B /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36B0C1C1AE29649000B4F7B /* LeftViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B36DC11C1B68862200402EC5 /* MessageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1171B68862200402EC5 /* MessageButton.m */; };
 		B36DC11D1B68862200402EC5 /* MessageClassButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1191B68862200402EC5 /* MessageClassButton.m */; };
 		B36DC11E1B68862200402EC5 /* MessageListButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC11B1B68862200402EC5 /* MessageListButton.m */; };
 		B36DC1231B6888D000402EC5 /* Header.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1221B6888D000402EC5 /* Header.m */; };
 		B36DC1271B68B67500402EC5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1261B68B67500402EC5 /* MainViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B36DC1341B69FA2D00402EC5 /* ContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC12B1B69FA2D00402EC5 /* ContactDetailViewController.m */; };
-		B36DC1351B69FA2D00402EC5 /* Contacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B36DC12C1B69FA2D00402EC5 /* Contacts.xcdatamodeld */; };
-		B36DC1361B69FA2D00402EC5 /* ContactsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC12F1B69FA2D00402EC5 /* ContactsManager.m */; };
-		B36DC1371B69FA2D00402EC5 /* ContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1311B69FA2D00402EC5 /* ContactsTableViewController.m */; };
-		B36DC1381B69FA2D00402EC5 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1331B69FA2D00402EC5 /* ContactsViewController.m */; };
-		B36DC13B1B69FA3700402EC5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC13A1B69FA3700402EC5 /* Person.m */; };
 		B36DC13E1B704E6900402EC5 /* MessageListButtonNoCount.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC13D1B704E6900402EC5 /* MessageListButtonNoCount.m */; };
 		B36DC1CF1B70AACF00402EC5 /* ExcelListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1CE1B70AACF00402EC5 /* ExcelListTableViewController.m */; };
 		B36DC1D21B71A38E00402EC5 /* NewsListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36DC1D11B71A38E00402EC5 /* NewsListTableViewController.m */; };
@@ -38,6 +32,7 @@
 		B37CA1CD1AE1FEF400F42837 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B37CA1CC1AE1FEF400F42837 /* LoginViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B37CA1CF1AE2005E00F42837 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37CA1CE1AE2005E00F42837 /* Images.xcassets */; };
 		B37CA1D31AE2140D00F42837 /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B37CA1D21AE2140D00F42837 /* IndexViewController.m */; };
+		B3ADB6011C0D619600507791 /* Contact1.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = B3ADB6001C0D619600507791 /* Contact1.xcdatamodel */; };
 		B3CB0DE51B82DBFF00C1CEAE /* CLLRefreshCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CB0DDD1B82DBFF00C1CEAE /* CLLRefreshCircleView.m */; };
 		B3CB0DE61B82DBFF00C1CEAE /* CLLRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CB0DDF1B82DBFF00C1CEAE /* CLLRefreshFooterView.m */; };
 		B3CB0DE71B82DBFF00C1CEAE /* CLLRefreshHeadController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CB0DE11B82DBFF00C1CEAE /* CLLRefreshHeadController.m */; };
@@ -45,14 +40,26 @@
 		B3CB0DE91B82DBFF00C1CEAE /* ReadMe.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3CB0DE41B82DBFF00C1CEAE /* ReadMe.strings */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B35B1BD31BAAA9D600458493 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B31A8BF51C0D3A0B002E4344 /* Leo.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		B31A8BF31C0D3A0B002E4344 /* Leo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Leo.framework; path = ../Leo/Products/Leo.framework; sourceTree = "<group>"; };
 		B31C98F21B2E6ACE00E4CC4F /* Update.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Update.h; sourceTree = "<group>"; };
 		B31C98F31B2E6ACE00E4CC4F /* Update.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Update.m; sourceTree = "<group>"; };
 		B32ABB561AEF34320030DD3C /* YRSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRSideViewController.h; sourceTree = "<group>"; };
 		B32ABB571AEF34320030DD3C /* YRSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRSideViewController.m; sourceTree = "<group>"; };
-		B33F5E921AE4EE320047BF73 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
-		B33F5E931AE4EE320047BF73 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
-		B33F5E941AE4EE320047BF73 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		B36B0C1B1AE29649000B4F7B /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
 		B36B0C1C1AE29649000B4F7B /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 		B36DC1161B68862200402EC5 /* MessageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageButton.h; sourceTree = "<group>"; };
@@ -64,17 +71,6 @@
 		B36DC1221B6888D000402EC5 /* Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Header.m; sourceTree = "<group>"; };
 		B36DC1251B68B67500402EC5 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		B36DC1261B68B67500402EC5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		B36DC12A1B69FA2D00402EC5 /* ContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailViewController.h; sourceTree = "<group>"; };
-		B36DC12B1B69FA2D00402EC5 /* ContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailViewController.m; sourceTree = "<group>"; };
-		B36DC12D1B69FA2D00402EC5 /* Contacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Contacts.xcdatamodel; sourceTree = "<group>"; };
-		B36DC12E1B69FA2D00402EC5 /* ContactsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsManager.h; sourceTree = "<group>"; };
-		B36DC12F1B69FA2D00402EC5 /* ContactsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsManager.m; sourceTree = "<group>"; };
-		B36DC1301B69FA2D00402EC5 /* ContactsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsTableViewController.h; sourceTree = "<group>"; };
-		B36DC1311B69FA2D00402EC5 /* ContactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsTableViewController.m; sourceTree = "<group>"; };
-		B36DC1321B69FA2D00402EC5 /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
-		B36DC1331B69FA2D00402EC5 /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
-		B36DC1391B69FA3700402EC5 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		B36DC13A1B69FA3700402EC5 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		B36DC13C1B704E6900402EC5 /* MessageListButtonNoCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageListButtonNoCount.h; sourceTree = "<group>"; };
 		B36DC13D1B704E6900402EC5 /* MessageListButtonNoCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageListButtonNoCount.m; sourceTree = "<group>"; };
 		B36DC1CD1B70AACF00402EC5 /* ExcelListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExcelListTableViewController.h; sourceTree = "<group>"; };
@@ -103,6 +99,7 @@
 		B37CA1D01AE2012400F42837 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		B37CA1D11AE2140D00F42837 /* IndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
 		B37CA1D21AE2140D00F42837 /* IndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
+		B3ADB6001C0D619600507791 /* Contact1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Contact1.xcdatamodel; sourceTree = "<group>"; };
 		B3CB0DDC1B82DBFF00C1CEAE /* CLLRefreshCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLRefreshCircleView.h; sourceTree = "<group>"; };
 		B3CB0DDD1B82DBFF00C1CEAE /* CLLRefreshCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLRefreshCircleView.m; sourceTree = "<group>"; };
 		B3CB0DDE1B82DBFF00C1CEAE /* CLLRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLRefreshFooterView.h; sourceTree = "<group>"; };
@@ -119,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B31A8BF41C0D3A0B002E4344 /* Leo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,16 +139,6 @@
 				B32ABB571AEF34320030DD3C /* YRSideViewController.m */,
 			);
 			name = YRSide;
-			sourceTree = "<group>";
-		};
-		B33F5E911AE4EE290047BF73 /* SVProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				B33F5E921AE4EE320047BF73 /* SVProgressHUD.bundle */,
-				B33F5E931AE4EE320047BF73 /* SVProgressHUD.h */,
-				B33F5E941AE4EE320047BF73 /* SVProgressHUD.m */,
-			);
-			name = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 		B36DC1151B68860F00402EC5 /* index */ = {
@@ -190,24 +178,6 @@
 			name = News;
 			sourceTree = "<group>";
 		};
-		B36DC1291B69FA2100402EC5 /* Contacts */ = {
-			isa = PBXGroup;
-			children = (
-				B36DC1391B69FA3700402EC5 /* Person.h */,
-				B36DC13A1B69FA3700402EC5 /* Person.m */,
-				B36DC12A1B69FA2D00402EC5 /* ContactDetailViewController.h */,
-				B36DC12B1B69FA2D00402EC5 /* ContactDetailViewController.m */,
-				B36DC12C1B69FA2D00402EC5 /* Contacts.xcdatamodeld */,
-				B36DC12E1B69FA2D00402EC5 /* ContactsManager.h */,
-				B36DC12F1B69FA2D00402EC5 /* ContactsManager.m */,
-				B36DC1301B69FA2D00402EC5 /* ContactsTableViewController.h */,
-				B36DC1311B69FA2D00402EC5 /* ContactsTableViewController.m */,
-				B36DC1321B69FA2D00402EC5 /* ContactsViewController.h */,
-				B36DC1331B69FA2D00402EC5 /* ContactsViewController.m */,
-			);
-			name = Contacts;
-			sourceTree = "<group>";
-		};
 		B36DC1BB1B70A9EC00402EC5 /* RefreshHeadView */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,8 +206,10 @@
 		B37CA1871AE1FD7800F42837 = {
 			isa = PBXGroup;
 			children = (
+				B31A8BF31C0D3A0B002E4344 /* Leo.framework */,
 				B37CA1921AE1FD7800F42837 /* yghy */,
 				B37CA1AF1AE1FD7800F42837 /* yghyTests */,
+				B37CA1B01AE1FD7800F42837 /* Supporting Files */,
 				B37CA1911AE1FD7800F42837 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -254,7 +226,6 @@
 			isa = PBXGroup;
 			children = (
 				B36DC1CC1B70AA4500402EC5 /* Ship */,
-				B36DC1291B69FA2100402EC5 /* Contacts */,
 				B36DC1281B68BEC800402EC5 /* News */,
 				B36DC1241B68B48C00402EC5 /* OA */,
 				B36DC1151B68860F00402EC5 /* index */,
@@ -268,6 +239,7 @@
 				B37CA1D01AE2012400F42837 /* Header.h */,
 				B36DC1221B6888D000402EC5 /* Header.m */,
 				B37CA1A51AE1FD7800F42837 /* LaunchScreen.xib */,
+				B3ADB6001C0D619600507791 /* Contact1.xcdatamodel */,
 				B37CA19A1AE1FD7800F42837 /* yghy.xcdatamodeld */,
 				B37CA1931AE1FD7800F42837 /* Supporting Files */,
 				B36B0C1B1AE29649000B4F7B /* LeftViewController.h */,
@@ -291,7 +263,6 @@
 			isa = PBXGroup;
 			children = (
 				B37CA1B21AE1FD7800F42837 /* yghyTests.m */,
-				B37CA1B01AE1FD7800F42837 /* Supporting Files */,
 			);
 			path = yghyTests;
 			sourceTree = "<group>";
@@ -302,6 +273,7 @@
 				B37CA1B11AE1FD7800F42837 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			path = yghyTests;
 			sourceTree = "<group>";
 		};
 		B37CA1BE1AE1FE0000F42837 /* Resource */ = {
@@ -309,7 +281,6 @@
 			children = (
 				B36DC1BB1B70A9EC00402EC5 /* RefreshHeadView */,
 				B31C994A1B2E9B3F00E4CC4F /* Update */,
-				B33F5E911AE4EE290047BF73 /* SVProgressHUD */,
 				B33F5E901AE4EDDB0047BF73 /* YRSide */,
 				B37CA1C41AE1FED000F42837 /* KeyChainItemWrapper */,
 			);
@@ -335,6 +306,7 @@
 				B37CA18C1AE1FD7800F42837 /* Sources */,
 				B37CA18D1AE1FD7800F42837 /* Frameworks */,
 				B37CA18E1AE1FD7800F42837 /* Resources */,
+				B35B1BD31BAAA9D600458493 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -351,7 +323,7 @@
 		B37CA1881AE1FD7800F42837 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = zhangchao;
 				TargetAttributes = {
 					B37CA18F1AE1FD7800F42837 = {
@@ -389,7 +361,6 @@
 				B3732D061B12B45D001D1EFA /* titleBar_bg.png in Resources */,
 				B3CB0DE91B82DBFF00C1CEAE /* ReadMe.strings in Resources */,
 				B37CA1A71AE1FD7800F42837 /* LaunchScreen.xib in Resources */,
-				B33F5E951AE4EE320047BF73 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,29 +374,23 @@
 				B31C98F41B2E6ACE00E4CC4F /* Update.m in Sources */,
 				B37CA1991AE1FD7800F42837 /* AppDelegate.m in Sources */,
 				B36DC13E1B704E6900402EC5 /* MessageListButtonNoCount.m in Sources */,
-				B36DC13B1B69FA3700402EC5 /* Person.m in Sources */,
-				B36DC1371B69FA2D00402EC5 /* ContactsTableViewController.m in Sources */,
 				B36B0C1E1AE29649000B4F7B /* LeftViewController.m in Sources */,
 				B36DC1271B68B67500402EC5 /* MainViewController.m in Sources */,
 				B3CB0DE51B82DBFF00C1CEAE /* CLLRefreshCircleView.m in Sources */,
-				B36DC1341B69FA2D00402EC5 /* ContactDetailViewController.m in Sources */,
 				B32ABB581AEF34320030DD3C /* YRSideViewController.m in Sources */,
 				B3CB0DE61B82DBFF00C1CEAE /* CLLRefreshFooterView.m in Sources */,
 				B36DC11D1B68862200402EC5 /* MessageClassButton.m in Sources */,
 				B36DC1CF1B70AACF00402EC5 /* ExcelListTableViewController.m in Sources */,
 				B3CB0DE81B82DBFF00C1CEAE /* CLLRefreshHeadView.m in Sources */,
 				B36DC11E1B68862200402EC5 /* MessageListButton.m in Sources */,
-				B36DC1351B69FA2D00402EC5 /* Contacts.xcdatamodeld in Sources */,
-				B36DC1381B69FA2D00402EC5 /* ContactsViewController.m in Sources */,
+				B3ADB6011C0D619600507791 /* Contact1.xcdatamodel in Sources */,
 				B37CA1961AE1FD7800F42837 /* main.m in Sources */,
 				B37248711B4B621200A4CE6D /* OAViewController.m in Sources */,
 				B3CB0DE71B82DBFF00C1CEAE /* CLLRefreshHeadController.m in Sources */,
 				B36DC1D21B71A38E00402EC5 /* NewsListTableViewController.m in Sources */,
 				B37CA19C1AE1FD7800F42837 /* yghy.xcdatamodeld in Sources */,
 				B36DC11C1B68862200402EC5 /* MessageButton.m in Sources */,
-				B33F5E961AE4EE320047BF73 /* SVProgressHUD.m in Sources */,
 				B36DC1231B6888D000402EC5 /* Header.m in Sources */,
-				B36DC1361B69FA2D00402EC5 /* ContactsManager.m in Sources */,
 				B37CA1CD1AE1FEF400F42837 /* LoginViewController.m in Sources */,
 				B37CA1CA1AE1FEE800F42837 /* KeychainItemWrapper.m in Sources */,
 				B37CA1D31AE2140D00F42837 /* IndexViewController.m in Sources */,
@@ -475,6 +440,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -544,14 +510,15 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Lianyungang Port Group Communications and Information Engineering Company";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lianyungang Port Group Communications and Information Engineering Company";
 				INFOPLIST_FILE = yghy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/yghy",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyg.yghy;
 				PRODUCT_NAME = "云港海运";
-				PROVISIONING_PROFILE = "1cbcd425-b578-4051-9cab-011e359d9b0f";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -563,15 +530,16 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Lianyungang Port Group Communications and Information Engineering Company";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lianyungang Port Group Communications and Information Engineering Company";
 				INFOPLIST_FILE = yghy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/yghy",
 				);
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyg.yghy;
 				PRODUCT_NAME = "云港海运";
-				PROVISIONING_PROFILE = "1cbcd425-b578-4051-9cab-011e359d9b0f";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -599,16 +567,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B36DC12C1B69FA2D00402EC5 /* Contacts.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				B36DC12D1B69FA2D00402EC5 /* Contacts.xcdatamodel */,
-			);
-			currentVersion = B36DC12D1B69FA2D00402EC5 /* Contacts.xcdatamodel */;
-			path = Contacts.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
 		B37CA19A1AE1FD7800F42837 /* yghy.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (

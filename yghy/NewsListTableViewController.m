@@ -113,7 +113,7 @@
 {
     NSString *URL = [[NSString alloc]init];
     switch (self.mark) {
-        case 4://要闻咨询
+        case 4://要闻资讯
             URL = [NSString stringWithFormat:@"http://218.92.115.55/yghy/Service/News/GetAllNewsList.aspx?Pages=%d",loadCount];
             break;
         case 3://领导讲话
@@ -132,7 +132,7 @@
     NSDictionary *Json = [NSJSONSerialization JSONObjectWithData:response options:NSJSONReadingMutableContainers error:&error];
     
     switch (self.mark) {
-        case 4://要闻咨询
+        case 4://要闻资讯
             return [Json objectForKey:@"NewsList"];
             break;
         case 3://领导讲话

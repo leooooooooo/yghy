@@ -186,6 +186,15 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             symbolName = "*0x104957e2a">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -243,11 +252,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "yghy/IndexViewController.m"
-            timestampString = "460435471.063272"
+            timestampString = "466996633.767941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "92"
-            endingLineNumber = "92"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
             landmarkName = "-addBaseTileButton"
             landmarkType = "5">
          </BreakpointContent>
@@ -259,11 +268,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "yghy/IndexViewController.m"
-            timestampString = "460435471.063272"
+            timestampString = "466996633.767941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "107"
-            endingLineNumber = "107"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
             landmarkName = "-addBaseTileButton"
             landmarkType = "5">
          </BreakpointContent>
@@ -275,27 +284,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "yghy/IndexViewController.m"
-            timestampString = "460435471.063272"
+            timestampString = "466996633.767941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
-            landmarkName = "-addBaseTileButton"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "yghy/IndexViewController.m"
-            timestampString = "460435471.063272"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
@@ -307,11 +300,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "yghy/IndexViewController.m"
-            timestampString = "460435471.063272"
+            timestampString = "466996633.767941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
             landmarkName = "-logout"
             landmarkType = "5">
          </BreakpointContent>
@@ -323,11 +316,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "yghy/IndexViewController.m"
-            timestampString = "460438757.464483"
+            timestampString = "466996633.767941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "168"
-            endingLineNumber = "168"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
             landmarkName = "-getMessageClassList"
             landmarkType = "5">
          </BreakpointContent>
@@ -339,11 +332,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "yghy/IndexViewController.m"
-            timestampString = "460438209.261102"
+            timestampString = "470641792.171361"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "296"
-            endingLineNumber = "296"
+            startingLineNumber = "345"
+            endingLineNumber = "345"
             landmarkName = "-setNewsTitle:withClassName:"
             landmarkType = "5">
          </BreakpointContent>
@@ -355,11 +348,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "yghy/IndexViewController.m"
-            timestampString = "460435471.063272"
+            timestampString = "466996633.767941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "239"
-            endingLineNumber = "239"
+            startingLineNumber = "266"
+            endingLineNumber = "266"
             landmarkName = "-clickMsgTileButton:"
             landmarkType = "5">
          </BreakpointContent>
@@ -371,11 +364,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "yghy/IndexViewController.m"
-            timestampString = "460435471.063272"
+            timestampString = "466996633.767941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "199"
-            endingLineNumber = "199"
+            startingLineNumber = "224"
+            endingLineNumber = "224"
             landmarkName = "-getMessageClassList"
             landmarkType = "5">
          </BreakpointContent>
@@ -419,11 +412,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "yghy/IndexViewController.m"
-            timestampString = "460435471.063272"
+            timestampString = "466996633.767941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "226"
-            endingLineNumber = "226"
+            startingLineNumber = "253"
+            endingLineNumber = "253"
             landmarkName = "-getMessageClassList"
             landmarkType = "5">
          </BreakpointContent>
@@ -435,11 +428,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "yghy/IndexViewController.m"
-            timestampString = "460436915.748198"
+            timestampString = "466996633.767941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "244"
-            endingLineNumber = "244"
+            startingLineNumber = "272"
+            endingLineNumber = "272"
             landmarkName = "-clickMsgTileButton:"
             landmarkType = "5">
          </BreakpointContent>
@@ -451,11 +444,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "yghy/IndexViewController.m"
-            timestampString = "460438209.261102"
+            timestampString = "470641792.171361"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "279"
-            endingLineNumber = "279"
+            startingLineNumber = "328"
+            endingLineNumber = "328"
             landmarkName = "-clickMsgTileButton:"
             landmarkType = "5">
          </BreakpointContent>
@@ -473,6 +466,22 @@
             startingLineNumber = "141"
             endingLineNumber = "141"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "yghy/ContactsViewController.m"
+            timestampString = "464150294.231534"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

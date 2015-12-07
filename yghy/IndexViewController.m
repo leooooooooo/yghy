@@ -8,13 +8,10 @@
 
 #import "IndexViewController.h"
 #import "AppDelegate.h"
-#import "SVProgressHUD.h"
-#import "OAViewController.h"
-#import "MessageClassButton.h"
-#import "MessageListButton.h"
-#import "MessageListButtonNoCount.h"
+#import <Leo/Leo.h>
+//#import "OAViewController.h"
 #import "Header.h"
-#import "ContactsViewController.h"
+//#import "ContactsViewController.h"
 #import "ExcelListTableViewController.h"
 #import "NewsListTableViewController.h"
 
@@ -83,17 +80,29 @@
 
 - (void) addBaseTileButton
 {
-    CGRect tileFrame = CGRectMake(TileBaseX + TileSeparatorInset, TileBaseY + TileSeparatorInset, WIDTH-(TileBaseX + TileSeparatorInset)*2, WIDTH*11/32);
+    CGRect tileFrame = CGRectMake(TileBaseX + TileSeparatorInset, TileBaseY + TileSeparatorInset, (WIDTH-TileBaseX*2-TileSeparatorInset*3)*2/5, WIDTH*11/32);
     
     //今日待办
     [self createBaseTileButtonWithBtnIcon:1 withBtnTitle:@"待办事项" withFrame:tileFrame];
     
-    tileFrame = CGRectMake(TileBaseX + TileSeparatorInset, TileBaseY + TileSeparatorInset + WIDTH*11/32 + TileSeparatorInset, (WIDTH*2/5-TileBaseX-TileSeparatorInset), WIDTH*9/32);
+    tileFrame = CGRectMake(TileBaseX + TileSeparatorInset*2+((WIDTH-TileBaseX*2-TileSeparatorInset*3)*2/5), TileBaseY + TileSeparatorInset, (WIDTH-TileBaseX*2-TileSeparatorInset*3)*2/5, WIDTH*11/32);
+    
+    //今日待办
+    [self createBaseTileButtonWithBtnIcon:10 withBtnTitle:@"已办查询" withFrame:tileFrame];
+    
+    tileFrame = CGRectMake(TileBaseX + TileSeparatorInset*3+((WIDTH-TileBaseX*2-TileSeparatorInset*3)*2/5)*2, TileBaseY + TileSeparatorInset, (WIDTH-TileBaseX*2-TileSeparatorInset*3)*1/5-TileSeparatorInset, WIDTH*11/32);
+    
+    //今日待办
+    [self createBaseTileButtonWithBtnIcon:11 withBtnTitle:@"协同审批" withFrame:tileFrame];
+
+    
+    tileFrame = CGRectMake(TileBaseX + TileSeparatorInset, TileBaseY + TileSeparatorInset + WIDTH*11/32 + TileSeparatorInset + (WIDTH*9/16-TileSeparatorInset)/3+ TileSeparatorInset, (WIDTH-TileBaseX*2-TileSeparatorInset*3)*2/5, (WIDTH*9/16-TileSeparatorInset)/3);
     
     //未读邮件
     [self createBaseTileButtonWithBtnIcon:2 withBtnTitle:@"企业邮箱" withFrame:tileFrame];
     
-    tileFrame = CGRectMake(TileBaseX + TileSeparatorInset, TileBaseY + TileSeparatorInset + WIDTH*11/32 + TileSeparatorInset + WIDTH*9/32 + TileSeparatorInset, (WIDTH-TileBaseX*2-TileSeparatorInset*3)*2/5, WIDTH*9/32);
+    tileFrame = CGRectMake(TileBaseX + TileSeparatorInset, TileBaseY + TileSeparatorInset + WIDTH*11/32 + TileSeparatorInset, (WIDTH*2/5-TileBaseX-TileSeparatorInset), (WIDTH*9/16-TileSeparatorInset)/3);
+
     
     //未读通告
     [self createBaseTileButtonWithBtnIcon:3 withBtnTitle:@"通知公告" withFrame:tileFrame];
@@ -103,15 +112,25 @@
     //RTX消息
     [self createBaseTileButtonWithBtnIcon:4 withBtnTitle:@"公司新闻" withFrame:tileFrame];
     
-    tileFrame = CGRectMake(TileBaseX + TileSeparatorInset, TileBaseY + TileSeparatorInset + WIDTH*11/32 + TileSeparatorInset + WIDTH*9/32 + TileSeparatorInset + WIDTH*9/32 + TileSeparatorInset, (WIDTH-TileBaseX*2-TileSeparatorInset*3)/2, WIDTH*11/32);
+    tileFrame = CGRectMake(TileBaseX + TileSeparatorInset, TileBaseY + TileSeparatorInset + WIDTH*11/32 + TileSeparatorInset + (WIDTH*9/16-TileSeparatorInset)*2/3+ 2*TileSeparatorInset, (WIDTH-TileBaseX*2-TileSeparatorInset*3)*2/5, (WIDTH*9/16-TileSeparatorInset)/3);
     
     //网上公文
     [self createBaseTileButtonWithBtnIcon:5 withBtnTitle:@"通讯录" withFrame:tileFrame];
     
-    tileFrame = CGRectMake(TileBaseX + TileSeparatorInset + (WIDTH-TileBaseX*2-TileSeparatorInset*3)/2 + TileSeparatorInset, TileBaseY + TileSeparatorInset + WIDTH*11/32 + TileSeparatorInset + WIDTH*9/32 + TileSeparatorInset + WIDTH*9/32 + TileSeparatorInset, (WIDTH-TileBaseX*2-TileSeparatorInset*3)/2, WIDTH*11/32);
+    tileFrame = CGRectMake(TileBaseX + TileSeparatorInset, TileBaseY + TileSeparatorInset + WIDTH*11/32 + TileSeparatorInset + WIDTH*9/32 + TileSeparatorInset + WIDTH*9/32 + TileSeparatorInset, (WIDTH-TileBaseX*2-TileSeparatorInset*4)/3, WIDTH*11/32);
     
     //集团新闻
     [self createBaseTileButtonWithBtnIcon:6 withBtnTitle:@"航运动态" withFrame:tileFrame];
+    
+    tileFrame = CGRectMake(TileBaseX + TileSeparatorInset*2 + (WIDTH-TileBaseX*2-TileSeparatorInset*4)/3, TileBaseY + TileSeparatorInset + WIDTH*11/32 + TileSeparatorInset + WIDTH*9/32 + TileSeparatorInset + WIDTH*9/32 + TileSeparatorInset, (WIDTH-TileBaseX*2-TileSeparatorInset*4)/3, WIDTH*11/32);
+    
+    //集团新闻
+    [self createBaseTileButtonWithBtnIcon:8 withBtnTitle:@"规章制度" withFrame:tileFrame];
+    
+    tileFrame = CGRectMake(TileBaseX + TileSeparatorInset*3 + (WIDTH-TileBaseX*2-TileSeparatorInset*4)*2/3, TileBaseY + TileSeparatorInset + WIDTH*11/32 + TileSeparatorInset + WIDTH*9/32 + TileSeparatorInset + WIDTH*9/32 + TileSeparatorInset, (WIDTH-TileBaseX*2-TileSeparatorInset*4)/3, WIDTH*11/32);
+    
+    //集团新闻
+    [self createBaseTileButtonWithBtnIcon:9 withBtnTitle:@"论坛" withFrame:tileFrame];
     
     tileFrame = CGRectMake(TileBaseX + TileSeparatorInset, TileBaseY + TileSeparatorInset + WIDTH*11/32 + TileSeparatorInset + WIDTH*9/32 + TileSeparatorInset + TileSeparatorInset +WIDTH*9/32 + TileSeparatorInset + WIDTH*11/32, WIDTH-(TileBaseX + TileSeparatorInset)*2, WIDTH*11/32);
     
@@ -130,7 +149,10 @@
     
     if ([btnTitle isEqualToString:@"企业邮箱"] ||
         [btnTitle isEqualToString:@"登出"] ||
-        [btnTitle isEqualToString:@"通讯录"]) {
+        [btnTitle isEqualToString:@"通讯录"] ||
+        [btnTitle isEqualToString:@"协同审批"] ||
+        [btnTitle isEqualToString:@"规章制度"] ||
+        [btnTitle isEqualToString:@"论坛"]) {
         
         baseBtn = [[MessageClassButton alloc] initWithFrame:frame];
         
@@ -175,13 +197,16 @@
                 URL = @"http://218.92.115.55/yghy/Service/News/GetAllNewsList.aspx?Pages=1";
                 break;
             case 1://work
-                URL = [NSString stringWithFormat:@"http://218.92.115.55/MobilePlatform/OA/GetTodayDealList.aspx?Logogram=%@",[extern UserName]];
+                URL = [NSString stringWithFormat:@"http://218.92.115.55/MobilePlatform/OA/GetTodayDealList.aspx?Logogram=%@",[ext UserName]];
                 break;
             case 2://publish
                 URL =  @"http://218.92.115.55/yghy/Service/GetNoticeList.aspx?Pages=1";
                 break;
             case 3://ship
                 URL =  @"http://218.92.115.55/yghy/Service/GetShipMovementList.aspx?Pages=1";
+                break;
+            case 4://worked
+                URL = [NSString stringWithFormat:@"http://218.92.115.55/MobilePlatform/OA/GetTodayDealedList.aspx?Logogram=%@",[ext UserName]];
                 break;
             default:
                 break;
@@ -220,6 +245,8 @@
                 }
             }
                 break;
+            case 4:[array addObjectsFromArray:(NSArray *)object];
+                break;
             default:array = nil;
                 break;
         }
@@ -241,37 +268,59 @@
     MessageButton *appBtn = (MessageButton *)sender;
     NSLog(@"%d",(int)(appBtn.tag - BaseTag));
     UIViewController *vc = [[UIViewController alloc]init];
+    vc.view.backgroundColor = UUCloudWhite;
     switch (appBtn.tag - BaseTag) {
         case 1:
-        case 2:{
-            vc = [[OAViewController alloc]init];
+        case 2:
+        case 10:
+        case 11:{
+            OAViewController *oa = [[OAViewController alloc]init];
+            oa.userid=[(AppDelegate *)[[UIApplication sharedApplication]delegate]UserName];
+            oa.pwd=[(AppDelegate *)[[UIApplication sharedApplication]delegate]Password];
+            vc=oa;
         }
             break;
         case 3:{
             NewsListTableViewController *news = [[NewsListTableViewController alloc]init];
             news.mark = (int)(appBtn.tag - BaseTag);
-            news.title = @"通知公告";
+            news.title = [[appBtn.strBtnTitle componentsSeparatedByString:@" "]objectAtIndex:0];
             vc=news;
         }
             break;
         case 4:{
             NewsListTableViewController *news = [[NewsListTableViewController alloc]init];
             news.mark = (int)(appBtn.tag - BaseTag);
-            news.title = @"公司新闻";
+            news.title = [[appBtn.strBtnTitle componentsSeparatedByString:@" "]objectAtIndex:0];
             vc=news;
+        }
+            break;
+        case 5:{
+            ContactsViewController *cc = [[ContactsViewController alloc]init];
+            cc.appName = AppName;
+            cc.navigationTitleColor =NavigationTitleColor;
+            cc.navigationBackArrowColor =NavigationBackArrowColor;
+            cc.navigationBarColor = NavigationBarColor;
+            vc = cc;
+            vc.title = [[appBtn.strBtnTitle componentsSeparatedByString:@" "]objectAtIndex:0];
         }
             break;
         case 6:{
             vc = [[ExcelListTableViewController alloc]init];
-            vc.title = @"航运动态";
-        }
-            break;
-        case 5:{
-            vc = [[ContactsViewController alloc]init];
-            vc.title = @"通讯录";
+            vc.title = [[appBtn.strBtnTitle componentsSeparatedByString:@" "]objectAtIndex:0];
         }
             break;
         case 7:[self logout];
+            break;
+        case 8:{
+            //vc = [[ExcelListTableViewController alloc]init];
+            vc.title = [[appBtn.strBtnTitle componentsSeparatedByString:@" "]objectAtIndex:0];
+        }
+            break;
+        case 9:{
+            //vc = [[ExcelListTableViewController alloc]init];
+            vc.title = [[appBtn.strBtnTitle componentsSeparatedByString:@" "]objectAtIndex:0];
+        }
+            break;
         default:
             break;
     }

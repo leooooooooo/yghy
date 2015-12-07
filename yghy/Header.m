@@ -24,7 +24,7 @@
 +(NSArray *)FunctionListInitialize
 {
     return [[NSArray alloc]initWithObjects:
-            @"公司新闻",@"待办事项",@"通知公告",@"航运动态",
+            @"公司新闻",@"待办事项",@"通知公告",@"航运动态",@"已办查询",
             nil];
 
 }

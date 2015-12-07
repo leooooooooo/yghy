@@ -2,8 +2,8 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "{56A74DE3-8E1A-4B96-9BAA-535705B5E51A}.png"
+      "filename" : "{56A74DE3-8E1A-4B96-9BAA-535705B5E51A}.png",
+      "scale" : "1x"
     },
     {
       "idiom" : "universal",

@@ -24,7 +24,7 @@
 #define PAGE3 @"我的应用"
 #define PAGE4 @"最新消息"
 #define isValid(object)     (object && ![object isEqual:[NSNull null]])   //判断当前对象是否有效
-#define extern (AppDelegate *)[[UIApplication sharedApplication]delegate]  //全局变量
+#define ext (AppDelegate *)[[UIApplication sharedApplication]delegate]  //全局变量
 
 
 @interface Header : NSObject

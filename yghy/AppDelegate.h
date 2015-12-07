@@ -23,6 +23,7 @@
 @property(retain,nonatomic) NSString *Version;
 @property(retain,nonatomic) NSString *Url;
 @property(retain,nonatomic) NSArray *FunctionList;
+@property(retain,nonatomic) NSString *Password;
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
 

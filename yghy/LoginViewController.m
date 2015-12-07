@@ -114,7 +114,7 @@
                 //保存登录信息
                 AppDelegate *delegate=(AppDelegate *)[[UIApplication sharedApplication]delegate];
                 delegate.UserName=[Info objectForKey:@"UserName"] ;
-                
+                delegate.Password = self.PW.text;
                 
                 
                 IndexViewController *index=[[[IndexViewController alloc]init]autorelease];

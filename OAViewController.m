@@ -8,7 +8,8 @@
 
 #import "OAViewController.h"
 #import "AppDelegate.h"
-#import "SVProgressHUD.h"
+#import <Leo/Leo.h>
+@import Leo.HUD;
 
 @interface OAViewController ()
 @property (nonatomic,retain)NSString *urlString;
@@ -48,7 +49,7 @@
     NSDictionary *dictionnary = [[NSDictionary alloc] initWithObjectsAndKeys:@"Mozilla/5.0 (iPhone Simulator; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3", @"UserAgent", nil];
     [[NSUserDefaults standardUserDefaults] registerDefaults:dictionnary];
     // Do any additional setup after loading the view, typically from a nib.
-    self.urlString =[NSString stringWithFormat:@"http://218.92.115.51/portal/m/index_sso.jsp?userId=%@",[(AppDelegate *)[[UIApplication sharedApplication]delegate]UserName]];
+    self.urlString =[NSString stringWithFormat:@"http://218.92.115.51/portal/m_index_sso.jsp?userid=%@&pwd=%@",[(AppDelegate *)[[UIApplication sharedApplication]delegate]UserName],[(AppDelegate *)[[UIApplication sharedApplication]delegate]Password]];
     self.webView = [[UIWebView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
     self.webView.delegate = self;
     self.webView.scalesPageToFit =YES;
@@ -117,12 +118,12 @@
 //UIWebView委托方法，开始加载一个url时候调用此方法
 -(void)webViewDidStartLoad:(UIWebView *)webView
 {
-    [SVProgressHUD showWithStatus:@"加载中..." maskType:SVProgressHUDMaskTypeGradient];
+    [HUD showWithStatus:@"加载中..." maskType:SVProgressHUDMaskTypeGradient];
 }
 //UIWebView委托方法，url加载完成的时候调用此方法
 -(void)webViewDidFinishLoad:(UIWebView *)webView
 {
-    [SVProgressHUD dismiss];
+    [HUD dismiss];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
